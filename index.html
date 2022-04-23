@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>The Silver Coast Life</title>
+</head>
+<body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">The Silver Coast Life</h2>
+        <div class="toggle"></div>
+      </header>
+      
+
+      <video src="pexels-cléviton-caldeira-7846068.mp4" muted loop autoplay></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Don't Settle</h2>
+        <h3>For Anything</h3>
+        <p>You only get one shot, so make it worthwhile. Make plans and figure out the steps. Get out and live the life you dream of. Don't wait. Start now.</p>
+        <a href="#">Vamos</a>
+      </div> 
+      
+      <ul class="social">
+        <li><a href="#"><img src="FB-logo.png" alt="" /></a></li>
+        <li><a href="#"><img src="IG-logo.png" alt=""/></a></li>
+        <li><a href="#"><img src="Twitter-logo.png" alt=""/></a></li> 
+      <ul>
+    </section>
+    
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div> 
+
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active')
+          showcase.classList.toggle('active')
+        
+        })
+
+    </script>
+    
+</body>
+</html>
